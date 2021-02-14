@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project 3</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    </head>
+    
+    <body>
+        <header>
+        <h1>THE CODE REVIEW</h1>
+        <H2>Signup for our newsletter </H2>
+        <span class="header-span">Get the latest news on how your code is doing right in your inbox</span>
+        
+        </header> 
+    
+        <main id="main-container">
+                <hr id="hr1">
+                <hr id="hr2">
+            <form action="index.html" method="post" id="form">
+
+                <legend id="legend-heading"> Contact Information</legend>
+                    <label class="heading-text" for="name">Full Name</label>
+                    <input type="text" id="name" name="user_name">
+
+                    <label class="heading-text" for="email">Email Address</label>
+                    <input type="text" id="email" name="user_email">
+
+                    <label class="heading-text" for="phone">Phone Number</label>
+                    <input type="text" id="phone" name="user_phone">
+
+                    <label class="heading-text" for="address">Street Address</label>
+                    <input type="text" id="address" name="user_address">
+
+                    <label class="heading-text" for="city">City</label>
+                    <input type="text" id="city" name="user_city">
+
+                    <label class="heading-text" for="state">State</label>
+                    <select name="user_state" id="state"></select>
+
+                    <label class="heading-text" for="zip">Zip</label>
+                    <input type="text" id="zip" name="user_zip">
+                   
+            </form>
+            <hr id="hr3">
+           
+            <form id="form-2">
+                
+                  
+                    <legend id="legend-heading-2">Newsletter</legend>
+                    <span class="form-2-span">Select the newsletters youu would like to receive</span>
+                
+                
+                <div class="checkbox">
+                    <input type="checkbox" id="html-news" name="html-news">
+                    <label for="html-news">HTML News</label>
+                </div>
+                
+            
+                <div class="checkbox" >
+                    <input type="checkbox" id="css-news" name="css-news">
+                    <label for="css-news">CSS News</label>
+                </div>
+                
+                <div class="checkbox">
+                    <input type="checkbox" id="javascript-news" name="javascript-news">
+                    <label for="javascript-news">Javascript News</label>
+                </div>  
+                    <span class="form-2-span-2">Newsletter format</span>
+                 
+                    <div class="radio ">
+                        <input type="radio" id="radio-button" name="radio-button">
+                    <label for="radio-button">HTML</label>
+                   
+                </div>
+                <div class="radio ">
+                    <input type="radio" id="radio-button" name="radio-button">
+                    <label for="radio-button">Plain text</label>
+              </div>
+            </form>
+        </main>
+    </body>
+</html>
