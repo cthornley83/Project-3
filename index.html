@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project 3</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1>THE CODE REVIEW</h1>
+            <H2>Signup for our newsletter </H2>
+            <span class="header-span">Get the latest news on how your code is doing right in your inbox</span>
+            
+        </header> 
+    
+        <main id="main-container">
+                <hr id="hr1">
+                    <hr id="hr2">
+                    
+                   
+                       
+                        <form action="index.html" method="post" id="main-form">
+                            
+                            <div id="flex-container">
+                            <fieldset class="fieldset">
+                         
+                                <legend id="legend-heading"> Contact Information</legend>
+                        
+                            <div class="contact-divs">
+                                <label class="heading-text" for="name">Full Name</label>
+                                <input class="input-field" type="text" id="name" name="user_name">
+                            </div>
+                            <div class="contact-divs">
+                                <label class="heading-text" for="email">Email Address</label>
+                                <input class="input-field" type="email" id="email" name="user_email">
+                            </div>
+                             <div class="contact-divs">
+                                <label class="heading-text" for="phone">Phone Number</label>
+                                <input class="input-field" type="tel" id="phone" name="user_phone">
+                            </div>
+                             <div class="contact-divs">
+                                <label class="heading-text" for="address">Street Address</label>
+                                <input class="input-field" type="text" id="address" name="user_address">
+                            </div>
+                            <div class="contact-divs">
+                                <label class="heading-text" for="city">City</label>
+                                <input class="input-field" type="text" id="city" name="user_city">
+                            </div>
+                             <div class="contact-divs state-div">
+                                <label class="heading-text state" for="state">State</label>
+                                <select class="input-field" name="user_state" id="state"></select>
+                            </div>
+                            <div class="contact-divs zip-div">
+                                <label class="heading-text zip-code" for="zip">Zip Code</label>
+                                 <input class="input-field" type="text" id="zip" name="user_zip">
+                            </div>
+                         </fieldset>
+                </div>
+                <hr id="hr3">
+            
+                 
+                <fieldset class="fieldset-1"> 
+                    
+                        <legend id="legend-heading-2">Newsletter</legend>
+                        
+                     
+                         
+                         <div class="newsletter-div">
+                                        <span class="newsletter-span">Select the newsletters youu would like to receive</span>
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="html-news" name="html-news">
+                                        <label for="html-news">HTML News</label>
+                                    </div>
+                                    
+                                
+                                    <div class="checkbox" >
+                                        <input type="checkbox" id="css-news" name="css-news">
+                                        <label for="css-news">CSS News</label>
+                                    </div>
+                                    
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="javascript-news" name="javascript-news">
+                                        <label for="javascript-news">Javascript News</label>
+                                    </div>  
+                    
+                                  <div class="newsletter-div newsletter-div-2">
+                                        <span class="newsletter-span-2">Newsletter format</span>
+                                        
+                                        <div class="radio ">
+                                            <input type="radio" id="radio-button-1" name="radio-button">
+                                        <label for="radio-button-1">HTML</label>
+                                    
+                                    </div>
+                                     <div class="radio ">
+                                        <input type="radio" id="radio-button-2" name="radio-button">
+                                        <label for="radio-button-2">Plain text</label>
+                                    </div>
+                                 </div> 
+                      </div> 
+                </fieldset>
+                <footer>  
+                <span id="footer-span"> Other things you'd like to hear about</span>
+                    <textarea name="comment" id="comment-area" cols="50" rows="6"> </textarea>
+                    <button type="submit" id="sign-up">Sign Up</button>
+             </form>
+  
+            
+              </footer>
+        </main>
+    </body>
+</html>
