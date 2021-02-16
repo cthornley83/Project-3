@@ -116,14 +116,15 @@ h2{
     padding: 25px 0;
 }
    
-
-   label[class="heading-text"]{  /*form - headings */ 
+/*form - headings */ 
+   label[class="heading-text"]{  
   
     font-family: 'Source Serif Pro', serif;
     font-weight: 600;
     color: grey;
 }
-input, select[name*="user_"]{       /*input fields*/
+ /*input fields*/
+input, select[name*="user_"]{      
     background: rgb(238, 233, 233);
     margin: 10px 0;
     padding: 10px;
@@ -215,7 +216,7 @@ textarea[name="comment"]
 
 
      
-/* ###### media queries ############## */
+/* ###### media querie ############## */
 
 @media(min-width:769px){
 
@@ -258,12 +259,11 @@ textarea[name="comment"]
         padding: 10px;
         border: none;
         border-radius: 5px;
-        /* margin: auto; */
         width: 70%;
        
         
     }
-    /*  heading text class below = label attributes */
+    /*  heading text class below = label attribute */
     .heading-text{
         flex-grow: 1;
         margin-top:15px;
@@ -274,22 +274,10 @@ textarea[name="comment"]
     /*###### zip and state newsletter rows ###########*/
    
    /* input zip */
-    #zip{
+      #zip{
         width: 25%;
     }
-    .zip-div{
-flex-grow: 1;
-    }
-     
-      /* text zip */
-    .zip-code{
-       /* width: 160px; */
-       
-    }
-    .state-div{
-        
-    }
-    #state{
+      #state{
         width:73.5%;
     }
     
