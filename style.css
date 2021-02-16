@@ -1,11 +1,9 @@
 
 /* ######### general selectors #################### */
 
-html{
-    max-width:100vw;
-    margin:0 auto;
+
    
-}
+
 body{
    max-width: 100vw;
     margin: 0 auto;
@@ -278,7 +276,7 @@ textarea[name="comment"]
         width: 25%;
     }
       #state{
-        width:73.5%;
+        width:70%;
     }
     
     
