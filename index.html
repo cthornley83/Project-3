@@ -26,7 +26,7 @@
                     
                    
                     <div id="flex-container">
-                        <form action="index.html" method="post" id="main-form">
+                        <form action="index.html" method="post" id="newsletter-form">
                             
                            
                             <fieldset class="fieldset">
@@ -34,12 +34,12 @@
                                 <legend id="legend-heading"> Contact Information</legend>
                         
                             <div class="contact-divs">
-                                <label class="heading-text" for="name">Full Name</label>
-                                <input class="input-field" type="text" id="name" name="user_name">
+                                <label class="heading-text" for="name">Full Name *</label>
+                                <input class="input-field" type="text" id="name" name="user_name" placeholder="Required " Required>
                             </div>
                             <div class="contact-divs">
-                                <label class="heading-text" for="email">Email Address</label>
-                                <input class="input-field" type="email" id="email" name="user_email">
+                                <label class="heading-text" for="email">Email Address *</label>
+                                <input class="input-field" type="email" id="email" name="user_email" placeholder="Required " Required >
                             </div>
                              <div class="contact-divs">
                                 <label class="heading-text" for="phone">Phone Number</label>
@@ -53,11 +53,18 @@
                                 <label class="heading-text" for="city">City</label>
                                 <input class="input-field" type="text" id="city" name="user_city">
                             </div>
-                             <div class="contact-divs state-div">
+                             <div class="contact-divs ">
                                 <label class="heading-text state" for="state">State</label>
-                                <select class="input-field" name="user_state" id="state"></select>
-                            </div>
-                            <div class="contact-divs zip-div">
+                               
+                                <select class="input-field" name="user_state" id="state" form="newsletter-form">
+                                    <option value="Lancashire">Lancashire</option>
+                                    <option value="Yorkshire">Yorkshire</option>
+                                    <option value="Devon">Devon</option>
+                                    <option value="Dorset">Dorset</option>
+                                    <option value="Summerset">Summerset</option>
+                                </select>
+                              </div>
+                            <div class="contact-divs ">
                                 <label class="heading-text zip-code" for="zip">Zip Code</label>
                                  <input class="input-field" type="text" id="zip" name="user_zip">
                             </div>
@@ -73,7 +80,7 @@
                      
                          
                          <div class="newsletter-div">
-                                        <span class="newsletter-span">Select the newsletters youu would like to receive</span>
+                                      <div class="span-div"> <span class="newsletter-span">Select the newsletters youu would like to receive</span></div> 
                                     <div class="checkbox">
                                         <input type="checkbox" id="html-news" name="html-news">
                                         <label for="html-news">HTML News</label>
@@ -90,8 +97,8 @@
                                         <label for="javascript-news">Javascript News</label>
                                     </div>  
                     
-                                  <div class="newsletter-div newsletter-div-2">
-                                        <span class="newsletter-span-2">Newsletter format</span>
+                                  <div class="newsletter-div">
+                                       <div class="span-div"> <span class="newsletter-span-2">Newsletter format</span></div>
                                         
                                         <div class="radio ">
                                             <input type="radio" id="radio-button-1" name="radio-button">
@@ -107,7 +114,7 @@
                 </fieldset>
                 <footer>  
                 <span id="footer-span"> Other things you'd like to hear about</span>
-                    <textarea name="comment" id="comment-area" cols="50" rows="6"> </textarea>
+                    <textarea name="comment" id="comment-area" cols="50" rows="6" placeholder="Type "> Type comment here ...</textarea>
                     <button type="submit" id="sign-up">Sign Up</button>
              </form>
   
